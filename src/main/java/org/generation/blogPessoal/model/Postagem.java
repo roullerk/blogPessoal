@@ -23,11 +23,11 @@ public class Postagem {
 	private long id;
 	
 	@NotNull
-	@Size(min = 5 , max = 10)
+	@Size(min = 3 , max = 25)
 	private String titulo;
 	
 	@NotNull
-	@Size(min = 5 , max = 500)
+	@Size(min = 3 , max = 500)
 	private String texto;
 	
 	@Temporal(TemporalType.TIMESTAMP)
